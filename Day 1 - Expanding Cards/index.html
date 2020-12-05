@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Expanding Cards</title>
+</head>
+<body>
+    <div class="container">
+        <div class="panel active" style="background-image: url('https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')">
+            <h3>Schönau am Königsee, Germany</h3>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172235.31136438553!2d12.873632597473557!3d47.58380426502539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!
+                4f13.1!3m3!1m2!1s0x4776e92be2ff9fb1%3A0x41d25a40937b800!2zODM0NzEg0KjRkdC90LDRgy3QsNC8LdCa0ZHQvdC40LPRgdC30LU!5e0!3m2!1sru!2sde!4v1607168149391!5m2!1sru!2sde"
+                frameborder="0" allowfullscreen="false" aria-hidden="false" tabindex="0"></iframe>
+                <button class=".btn" onclick="goBack();">BACK</button>
+            </div>
+        </div>
+        <div class="panel" style="background-image: url('https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')">
+            <h3>Gablenz, Germany</h3>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19853.706143034156!2d14.62985439648533!3d51.53681874093038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f
+                13.1!3m3!1m2!1s0x470889866cba74df%3A0x6dce67668f20d99b!2z0JPQsNCx0LvQtdC90YY!5e0!3m2!1sru!2sde!4v1607184278254!5m2!1sru!2sde"
+                frameborder="0" style="border:0;" allowfullscreen="false" aria-hidden="false" tabindex="0"></iframe>
+                <button class=".btn" onclick="goBack();">BACK</button>
+            </div>
+        </div>
+        <div class="panel" style="background-image: url('https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')">
+            <h3>San Francisco, USA</h3>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.02846874655!2d-122.47261937487097!3d37.757762678282134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!
+                4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2z0KHQsNC9LdCk0YDQsNC90YbQuNGB0LrQviwg0JrQsNC70LjRhNC-0YDQvdC40Y8sINCh0KjQkA!5e0!3m2!1sru!2sde!4v16071843
+                43174!5m2!1sru!2sde"
+                frameborder="0" style="border:0;" allowfullscreen="false" aria-hidden="false" tabindex="0"></iframe>
+                <button class=".btn" onclick="goBack();">BACK</button>
+            </div>
+        </div>
+        <div class="panel" style="background-image: url('https://images.pexels.com/photos/2105416/pexels-photo-2105416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')">
+            <h3>Revest-les-Roches, France</h3>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23005.778756229345!2d7.151807934373377!3d43.88230404536334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13
+                .1!3m3!1m2!1s0x12cdb5e519a5b327%3A0x40819a5fd9799b0!2zMDY4MzAg0KDQtdCy0LXRgdGCLdCb0LUt0KDQvtGILCDQpNGA0LDQvdGG0LjRjw!5e0!3m2!1sru!2sde!4v1607184401959!5m2!1sru!2sde"
+                frameborder="0" style="border:0;" allowfullscreen="false" aria-hidden="false" tabindex="0"></iframe>
+                <button class=".btn" onclick="goBack();">BACK</button>
+            </div>
+        </div>
+        <div class="panel" style="background-image: url('https://images.pexels.com/photos/1054289/pexels-photo-1054289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')">
+            <h3>Jenbach, Austria</h3>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43211.01398810133!2d11.700135630442622!3d47.39851281680295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1
+                !3m3!1m2!1s0x4777d5e1dbe44685%3A0x49afb922a7ff78f6!2z0JXQvdCx0LDRhSwg0JDQstGB0YLRgNC40Y8!5e0!3m2!1sru!2sde!4v1607184444773!5m2!1sru!2sde"
+                frameborder="0" style="border:0;" allowfullscreen="false" aria-hidden="false" tabindex="0"></iframe>
+                <button class=".btn" onclick="goBack();">BACK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
