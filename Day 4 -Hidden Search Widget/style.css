@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #feffa7, #fffcc4);
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.search {
+  position: relative;
+  height: 50px;
+}
+
+.search .input {
+  background-color: #f5f863;
+  border: 0;
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  transition: width 0.3s ease, border-radius 0.3s ease;
+  border-radius: 50px;
+}
+
+.btn {
+  background-color: #f5f863;
+  border: 0;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: transform 0.3s ease, border-radius 0.3s ease;
+  border-radius: 50px;
+}
+
+.btn:focus,
+.input:focus {
+  outline: none;
+}
+
+.search.active .input {
+  width: 200px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search.active .btn {
+  transform: translateX(198px);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* MODIFICATION */
+
+.title {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.555),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('https://www.loveandoliveoil.com/wp-content/uploads/2015/03/soy-sauce-noodlesH2.jpg');
+  width: 1000px;
+  height: 300px;
+  margin-bottom: 100px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: #f5f863 20px outset;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 100px;
+  color: #f5f863;
+}
+
+.title h1 span {
+  color: #f8fa90;
+}

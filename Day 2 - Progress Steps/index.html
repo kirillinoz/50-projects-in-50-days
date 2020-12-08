@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Progress Steps</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img class="state-img active" src="./img/1.png" alt="seed">
+            <img class="state-img" src="./img/2.png" alt="small plant">
+            <img class="state-img" src="./img/3.png" alt="medium plant">
+            <img class="state-img" src="./img/4.png" alt="big plant">
+        </div>
+        <div class="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="circle active">1</div>
+            <div class="circle">2</div>
+            <div class="circle">3</div>
+            <div class="circle">4</div>
+        </div>
+        <button class="btn" id="prev" disabled>Shrink</button>
+        <button class="btn" id="next">Grow</button>
+        <h3>#TEAMTREES</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
