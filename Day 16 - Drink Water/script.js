@@ -5,11 +5,11 @@ const percentage = document.getElementById('percentage')
 const remained = document.getElementById('remained')
 const goal = document.getElementById('goal');
 
+goal.addEventListener('keyup', () => detectChange())
+
 smallCups.forEach((cup, idx) => {
     cup.addEventListener('click', ()  => highlightCups(idx))
 })
-
-goal.addEventListener('keyup', () => detectChange())
 
 function highlightCups(idx) {
 
@@ -38,7 +38,7 @@ function updateBigCup() {
     }else {
         percentage.style.visibility = 'visible'
         percentage.style.height = `${fullCups / totalCups * 330}px`
-        percentage.innerText = `${fullCups / totalCups * 100}%`
+        percentage.innerText = `${Math.round(fullCups / totalCups * 100)}%`
     }
 
     if(fullCups === totalCups) {
@@ -51,7 +51,11 @@ function updateBigCup() {
 }
 
 function detectChange() {
+    //RESET
     cups.innerHTML = ``
+    percentage.style.visibility = 'hidden'
+    percentage.style.height = 0
+
     if(+goal.value === 0) return;
     for(i=0;i<+goal.value*4;i++){
         const tag = document.createElement('div')
@@ -63,4 +67,9 @@ function detectChange() {
     }
     smallCups = document.querySelectorAll('.cup-small')
     console.log(smallCups)
+    smallCups.forEach((cup, idx) => {
+        cup.addEventListener('click', ()  => highlightCups(idx))
+    })
+    const fullCups = document.querySelectorAll('.cup-small.full').length
+    liters.innerText = `${+goal.value - 250 * fullCups / 1000} L`
 }
