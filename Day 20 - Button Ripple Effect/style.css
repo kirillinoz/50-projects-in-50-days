@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: linear-gradient(90deg, #165b33, #f8b229);
+}
+
+button {
+  position: relative;
+  background-color: #bb2528;
+  color: #fff;
+  border: 1px #bb2528 solid;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 30px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+button .circle {
+  position: absolute;
+  background-color: #ea4630;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: scale 0.5s ease-out;
+}
+
+@keyframes scale {
+  to {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
+}
+
+/* SANTA CSS */
+.wrapper {
+  opacity: 0; /* 0 => 1 */
+  margin: 0vh 0; /* 0 => 20 */
+  transition: all 0.5s ease;
+}
+
+.wrapper.active {
+  opacity: 1;
+  margin: 20vh 0;
+}
+
+.hat-wrapper {
+  position: absolute;
+  top: -170px;
+}
+.hat {
+  min-width: 400px;
+  height: 200px;
+  background: #d00000;
+  margin: 0 auto;
+  border-radius: 100% 100% 0 0;
+  transform: skew(0, -8deg);
+}
+.hat-top {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 123px 0 0 100px;
+  border-color: transparent transparent transparent #d00000;
+  position: absolute;
+  right: -84px;
+  bottom: -12px;
+  transform: skew(0, 30deg);
+}
+
+.hat-top:before {
+  content: '';
+  display: block;
+  background: white;
+  background: radial-gradient(at top, #ffffff 0%, #e4e4e4 100%);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -50px;
+  margin-left: -50px;
+  border-radius: 100%;
+  transform: skew(0, -23deg);
+}
+.hat-brim {
+  width: 110%;
+  min-width: 400px;
+  height: 80px;
+  border-radius: 40px;
+  background: white;
+  background: radial-gradient(at top, #ffffff 0%, #e4e4e4 100%);
+  margin: 0 auto;
+  position: relative;
+  left: -5%;
+  top: -40px;
+}
+.face {
+  /*Auto width and height needs help*/
+  width: 40vw;
+  min-width: 400px;
+  min-height: 400px;
+  max-width: 400px;
+  border-radius: 30% 30% 90% 90%;
+  background: radial-gradient(at 40% top, #f6e6b4 0%, #eaab5d 100%);
+  margin: 0 auto;
+  position: relative;
+}
+.eye {
+  background: black;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 100px;
+  border-radius: 100%;
+  transition: all 0.5s;
+}
+.eye:hover {
+  height: 6px;
+  margin-top: 12px;
+}
+.left-eye {
+  left: 100px;
+}
+.right-eye {
+  right: 100px;
+}
+
+/*******************
+      Beard
+*******************/
+.beard {
+  width: 110%;
+  height: 80%;
+  border-radius: 30% 30% 110% 110%;
+  background: radial-gradient(at top, #ffffff 0%, #e4e4e4 100%);
+  left: -5%;
+  position: absolute;
+  top: 50%;
+}
+.mustache {
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  top: -40px;
+  font-size: 0;
+}
+.mustache-left {
+  width: 50%;
+  height: 80px;
+  background: radial-gradient(at top left, #e4e4e4 0%, #ffffff 100%);
+  border-radius: 200% 40% 100%;
+  box-shadow: -2px 6px 8px #e4e4e4;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.mustache-right {
+  width: 50%;
+  height: 80px;
+  background: radial-gradient(at top right, #e4e4e4 0%, #ffffff 100%);
+  border-radius: 40% 200% 40% 100%;
+  box-shadow: 2px 6px 8px #e4e4e4;
+  display: inline-block;
+  box-sizing: border-box;
+}
