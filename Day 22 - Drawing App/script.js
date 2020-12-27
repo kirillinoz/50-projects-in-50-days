@@ -3,7 +3,7 @@ const increaseBtn = document.getElementById('increase')
 const decreaseBtn = document.getElementById('decrease')
 const sizeEl = document.getElementById('size')
 const colorEl = document.getElementById('color')
-const chooseEl = document.getElementById('choose')
+const backgroundEl = document.getElementById('background')
 const clearEl = document.getElementById('clear')
 const ctx = canvas.getContext('2d')
 
@@ -12,6 +12,7 @@ let isPressed = false
 let color = 'black'
 let x
 let y
+let chooseColor = true
 
 canvas.addEventListener('mousedown', (e) => {
     isPressed = true
@@ -37,6 +38,11 @@ canvas.addEventListener('mousemove', (e) => {
         x = x2
 
         y = y2
+    }else if(chooseColor){
+        const x = e.clientX
+        const y = e.clientY
+        let imgData = ctx.getImageData(x, y, 1, 1).data;
+        console.log(imgData[0], imgData[1], imgData[2])
     }
 })
 
@@ -85,4 +91,6 @@ decreaseBtn.addEventListener('click', () => {
 colorEl.addEventListener('change', (e) => color = e.target.value)
 
 clearEl.addEventListener('click', () => ctx.clearRect(0, 0, canvas.width, canvas.height))
+
+backgroundEl.addEventListener('change', (e) => canvas.style.backgroundColor = e.target.value)
 
