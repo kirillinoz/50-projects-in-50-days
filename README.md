@@ -22,6 +22,13 @@ I've created 50 small projects by following this [udemy course](https://www.udem
 | 16 | Drink Water :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1340987558864576512) |
 | 17 | Movie App :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1341069760239431686) |
 | 18 | Background Slider | [TWEET](https://twitter.com/Inkuantum/status/1341400014136991753) |
+| 19 | Theme Clock :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1341772479254188034) |
+| 20 | Button Ripple Effect :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1342124664701775872) |
+| 21 | Drag N Drop | [TWEET](https://twitter.com/Inkuantum/status/1343154972297457664) |
+| 22 | Drawing App :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1343211980493094915) |
+| 23 | Kinetic CSS Loader :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1343261548341559297) |
+| 24 | Content Placeholder | [TWEET](https://twitter.com/Inkuantum/status/1343617616603209728) |
+| 25 | Sticky Navbar | [TWEET](https://twitter.com/Inkuantum/status/1343942390260883458) |
 | ... | IN PROGRESS | [TWITTER](https://twitter.com/Inkuantum) |
 ## Additional information
 * All modified projects are marked with :triangular_flag_on_post:.
