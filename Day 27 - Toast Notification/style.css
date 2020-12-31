@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5c80bc;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: #f5f5f5;
+  color: #3d3b30;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+#toasts {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.toast {
+  background-color: #f5f5f5;
+  color: #3d3b30;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  transition: transform 0.5s ease;
+  border: 3px solid #3d3b30;
+}
+
+.toast::before {
+  margin-right: 2rem;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f071';
+  color: #3d3b30;
+}
+
+.toast.new {
+  transform: translateX(100%);
+}
+
+#type {
+  margin-top: 10px;
+  background-color: #f5f5f5;
+  color: #3d3b30;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 0.2rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#type:focus {
+  outline: none;
+}
+
+.info {
+  color: #226ce0;
+  border-color: #226ce0;
+}
+
+.info::before {
+  margin-right: 2rem;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f05a';
+  color: #226ce0;
+}
+
+.attention {
+  color: #e63b2e;
+  border-color: #e63b2e;
+}
+
+.attention::before {
+  margin-right: 2rem;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f071';
+  color: #e63b2e;
+}
+
+.done {
+  color: #7ac74f;
+  border-color: #7ac74f;
+}
+
+.done::before {
+  margin-right: 2rem;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f058';
+  color: #7ac74f;
+}
+
+.wrong {
+  color: #cf4d6f;
+  border-color: #cf4d6f;
+}
+
+.wrong::before {
+  margin-right: 2rem;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f057';
+  color: #cf4d6f;
+}
