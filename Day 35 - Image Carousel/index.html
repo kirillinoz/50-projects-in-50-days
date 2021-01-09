@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Image Carousel</title>
+</head>
+<body>
+    <h1>Space Tech <i class="fas fa-rocket"></i></h1>
+    <div class="glass-morph">
+        <div class="menu">
+            <button class="option active">
+                <i class="fas fa-cog"></i>
+                <p>Industry</p>
+            </button>
+            <button class="option">
+                <i class="fas fa-rocket"></i>
+                <p>Rockets</p>
+            </button>
+            <button class="option">
+                <i class="fas fa-satellite"></i>
+                <p>Satellites</p>
+            </button>
+        </div>
+        <div class="carousel column">
+
+            <div class="image-container" id="imgs"></div>
+
+            <div class="buttons-container">
+                <button class="btn" id="left"><i class="fas fa-chevron-left"></i></button>
+                <button class="btn" id="right"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

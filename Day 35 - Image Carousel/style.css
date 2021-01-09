@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@200;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://images.pexels.com/photos/3612932/pexels-photo-3612932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+    center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel {
+  height: 530px;
+  width: 500px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.image-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #fefefe2f;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 49.5%;
+  transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #fefefe;
+  color: #000;
+  transition: all 0.5s ease;
+}
+
+.btn:focus {
+  outline: 0;
+  background-color: #fefefe;
+  color: #000;
+  transition: all 0.5s ease;
+}
+
+.glass-morph {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+  background: rgba(164, 136, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(149, 64, 189, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 2.55%;
+  transform: translate(-50%, -50%);
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 7rem;
+  color: #fefefe;
+}
+
+.btn i {
+  display: inline;
+  vertical-align: middle;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.548);
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.option {
+  background: none;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.option i {
+  font-size: 2rem;
+}
+
+.option.active {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.option:not(.active):hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s ease;
+}
+
+.option {
+  outline: none;
+}
+
+.option:not(.active):focus {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s ease;
+}
+
+.option p {
+  font-size: 1rem;
+  font-weight: bold;
+}
