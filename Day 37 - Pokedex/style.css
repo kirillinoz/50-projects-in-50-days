@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefbb;
+  background: linear-gradient(to right, #d4d3dd, #efefbb);
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+.poke-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.pokemon {
+  background-color: transparent;
+  margin: 10px;
+  text-align: center;
+  perspective: 1000px;
+  width: 160px;
+  height: 262px;
+}
+
+.pokemon .img-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
+.pokemon .img-container img {
+  max-width: 90%;
+  margin-top: 20px;
+}
+
+.pokemon .info {
+  margin-top: 20px;
+}
+
+.pokemon .info .number {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.8em;
+}
+
+.pokemon .info .name {
+  margin: 15px 0 7px;
+  letter-spacing: 1px;
+}
+
+/* MODIFICATION */
+
+.pokemon-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.pokemon.hover:hover .pokemon-inner {
+  transform: rotateY(180deg);
+}
+
+.pokemon-front,
+.pokemon-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  background: transparent;
+}
+
+.pokemon-back {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon-back .type {
+  margin-bottom: 5px;
+}
+
+.pokemon .type {
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px #000 solid;
+}
+
+.pokemon i {
+  font-size: 0.7em;
+}
