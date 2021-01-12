@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Mobile Tab Navigation</title>
+</head>
+<body>
+    <div class="phone">
+        <img src="https://images.pexels.com/photos/2950003/pexels-photo-2950003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="home" class="content show">
+        <img src="https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="work" class="content">
+        <img src="https://images.pexels.com/photos/261579/pexels-photo-261579.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="blog" class="content">
+        <img src="https://images.pexels.com/photos/1684187/pexels-photo-1684187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="about" class="content">
+        <div class="settings content">
+            <label>Brightness:</label>
+            <input type="range" min="1" max="100" value="100" class="slider" id="brightness">
+            <p id="brightness-value">100%</p>
+        </div>
+        <nav>
+            <ul>
+                <li class="active">
+                    <i class="fas fa-home"></i>
+                    <p>Home</p>
+                </li>
+                <li>
+                    <i class="fas fa-box"></i>
+                    <p>Work</p>
+                </li>
+                <li>
+                    <i class="fas fa-book-open"></i>
+                    <p>Blog</p>
+                </li>
+                <li>
+                    <i class="fas fa-users"></i>
+                    <p>About</p>
+                </li>
+                <li>
+                    <i class="fas fa-cog"></i>
+                    <p>Settings</p>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
