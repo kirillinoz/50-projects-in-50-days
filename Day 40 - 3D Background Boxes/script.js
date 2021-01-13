@@ -12,4 +12,6 @@ function createBoxes() {
     }
 }
 
+createBoxes()
+
 btn.addEventListener('click', () => boxesContainer.classList.toggle('big'))
