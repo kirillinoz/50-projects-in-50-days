@@ -29,6 +29,26 @@ I've created 50 small projects by following this [udemy course](https://www.udem
 | 23 | Kinetic CSS Loader :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1343261548341559297) |
 | 24 | Content Placeholder | [TWEET](https://twitter.com/Inkuantum/status/1343617616603209728) |
 | 25 | Sticky Navbar | [TWEET](https://twitter.com/Inkuantum/status/1343942390260883458) |
+| 26 | Vertical Slider :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1344303861729779714) |
+| 27 | Toast Notification :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1344676759388753923) |
+| 28 | GitHub Profiles | [TWEET](https://twitter.com/Inkuantum/status/1345046891512389635) |
+| 29 | Double Click Heart | [TWEET](https://twitter.com/Inkuantum/status/1345405161812987904) |
+| 30 | Auto Text Effect :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1345776862123978752) |
+| 31 | Password Generator :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1346125334618517506) |
+| 32 | Beautiful, Cheap, Fast :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1346553787347996672) |
+| 33 | Notes App :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1346838013951803393) |
+| 34 | Animation Countdown | [TWEET](https://twitter.com/Inkuantum/status/1347255649600724992) |
+| 35 | Image Carousel :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1347607609319301120) |
+| 36 | Hoverboard :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1347976505012473858) |
+| 37 | Pokédex :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1348319486642974722) |
+| 38 | Mobile Tab Navigation :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1349029648408211456) |
+| 39 | Password Strength Background | [TWEET](https://twitter.com/Inkuantum/status/1349066442566750211) |
+| 40 | 3D Background Boxes | [TWEET](https://twitter.com/Inkuantum/status/1349458866132701193) |
+| 41 | Verify Account UI :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1350509604925562882) |
+| 42 | Live User Filter | [TWEET](https://twitter.com/Inkuantum/status/1350531173961916422) |
+| 43 | Feedback UI Design | [TWEET](https://twitter.com/Inkuantum/status/1350705067326889984) |
+| 44 | Custom Range Slider | [TWEET](https://twitter.com/Inkuantum/status/1350890125224513542) |
+| 45 | Netflix Navigation | [TWEET](https://twitter.com/Inkuantum/status/1351224287940771846) |
 | ... | IN PROGRESS | [TWITTER](https://twitter.com/Inkuantum) |
 ## Additional information
 * All modified projects are marked with :triangular_flag_on_post:.
