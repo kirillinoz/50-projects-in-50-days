@@ -53,7 +53,7 @@ I've created 50 small projects by following this [udemy course](https://www.udem
 | 47 | Testimonial Box Switcher :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1351991287646445568) |
 | 48 | Random Image Feed | [TWEET](https://twitter.com/Inkuantum/status/1352344815837573122) |
 | 49 | Todo App | [TWEET](https://twitter.com/Inkuantum/status/1353005892166438915) |
-| 50 | Insect Catch Game | [TWEET](https://twitter.com/Inkuantum/status/1353392111119343616) |
+| 50 | Insect Catch Game :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1353392111119343616) |
 
 ## Additional information
 * All modified projects are marked with :triangular_flag_on_post:.
