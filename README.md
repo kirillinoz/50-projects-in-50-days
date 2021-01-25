@@ -49,7 +49,12 @@ I've created 50 small projects by following this [udemy course](https://www.udem
 | 43 | Feedback UI Design | [TWEET](https://twitter.com/Inkuantum/status/1350705067326889984) |
 | 44 | Custom Range Slider | [TWEET](https://twitter.com/Inkuantum/status/1350890125224513542) |
 | 45 | Netflix Navigation | [TWEET](https://twitter.com/Inkuantum/status/1351224287940771846) |
-| ... | IN PROGRESS | [TWITTER](https://twitter.com/Inkuantum) |
+| 46 | Quiz App :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1351622700570128397) |
+| 47 | Testimonial Box Switcher :triangular_flag_on_post: | [TWEET](https://twitter.com/Inkuantum/status/1351991287646445568) |
+| 48 | Random Image Feed | [TWEET](https://twitter.com/Inkuantum/status/1352344815837573122) |
+| 49 | Todo App | [TWEET](https://twitter.com/Inkuantum/status/1353005892166438915) |
+| 50 | Insect Catch Game | [TWEET](https://twitter.com/Inkuantum/status/1353392111119343616) |
+
 ## Additional information
 * All modified projects are marked with :triangular_flag_on_post:.
 * Follow me on [Twitter](https://twitter.com/Inkuantum) to see my progress.
